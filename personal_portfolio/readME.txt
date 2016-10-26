@@ -1,0 +1,2 @@
+Read Me First
+<!-- I am still heavily working on putting together my first version of my portfolio. I just wanted to have something submitted showing that I am working on this project. Updates to come -->

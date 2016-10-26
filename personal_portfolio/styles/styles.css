@@ -1,0 +1,100 @@
+/* This is connected to my portfolio_cprice page */
+
+html { 
+	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+ 	background: url(../images/tall_buildings_2.jpg) no-repeat center center fixed; 
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+}
+	#wrapper{
+		margin-right: auto;
+		margin-left: auto;
+		width: 700px;
+	}
+		div #main_header{
+			/*margin-top: 310px;*/
+			padding-top: 10px;
+			height: 150px;
+			background-color: rgba(255, 255, 255, 0.6);
+			background: rgba(255, 255, 255, 0.6);
+			border-radius: 10px;
+			width: 500px;
+			margin-left: 130px;
+		}
+			#main_header h6, h5{
+					margin-left: 160px;
+					text-align: center;
+			}
+			#main_header h6{
+				margin-top: -60px;
+			}
+			#main_header h5{
+				margin-top: -15px;
+			}
+			#my_name{
+				text-align: center;
+				display: inline-block;
+				width: 300px;
+				vertical-align: middle;
+				margin-top: -10px;
+				font-size: 40px;
+				margin-left: 10px;
+				font-style: italic;
+			}
+			#personal_photo{
+				border-radius: 100px;
+				display: inline-block;
+				text-align: center;
+				vertical-align: middle;
+				margin-left: 30px;
+			}
+		div #nav_bar{
+			width: 500px;
+			height: 30px;
+			background-color: rgba(255, 255, 255, 0.6);
+			background: rgba(255, 255, 255, 0.6);
+			border-radius: 5px;
+			font-size: 22px;
+			margin-left: 130px;
+			margin-top: -12px;
+		}
+			#nav_bar ul{
+				text-align: center;
+				margin-left: -35px;
+			}
+			#nav_bar ul li{
+				text-decoration: none;
+				list-style: none;
+				display: inline;
+				border-right: 1px solid black;
+				vertical-align: middle;
+				text-align: center;
+				color: black;
+				padding-right: 10px;
+				padding-left: 10px;
+			}
+			#nav_bar a{
+				text-decoration: none;
+				color: black;
+			}
+			#nav_bar ul li:last-child{
+				border-right: none;
+			}
+		div #summary{
+			width: 500px;
+			height: 250px;
+			background-color: rgba(255, 255, 255, 0.6);
+			background: rgba(255, 255, 255, 0.6);
+			margin-left: 130px;
+			margin-top: 10px;
+			border-radius: 10px;
+		}
+			#summary p{
+				margin: 0px 10px 0px 10px;
+				padding-top: 15px;
+				font-size: 15px;
+				font-style: italic;
+				font-weight: 500;
+			}
