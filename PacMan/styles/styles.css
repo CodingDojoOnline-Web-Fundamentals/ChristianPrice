@@ -36,6 +36,17 @@
 			width: 20px;
 			height: 20px;
 			position: absolute;
+			transform: rotate(0deg);
+		}
+		div#secondpacman{
+			background: url("../photos/pacman.gif");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			width: 20px;
+			height: 20px;
+			position: absolute;
+			transform: rotate(190deg);
 		}
 		div.ghost1{
 			background: url("../photos/ghost1.gif");
