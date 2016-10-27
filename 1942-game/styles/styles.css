@@ -46,3 +46,10 @@ body{
 		font-size:30px;
 		font-family: Arial;	
 	}
+	.destroyed_enemy{
+		background: url('../images/1942.gif');
+		background-position: -185px -400px;
+		width:28px;
+		height:28px;
+		position:absolute;
+	}

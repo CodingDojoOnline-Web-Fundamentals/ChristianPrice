@@ -54,7 +54,7 @@ $(document).ready(function(){
 		}
 		document.getElementById('bullets').innerHTML = output;
 	}
-
+	
 	function displayScore(){
 		document.getElementById('score').innerHTML = score;
 	}
@@ -73,22 +73,26 @@ $(document).ready(function(){
 		var output = ''
 		for(var i=0; i<bullets.length; i++){
 			for (var j=0; j<enemies.length; j++){
-				if(Math.abs(bullets[i].x - enemies[j].x) < 10 && Math.abs(
-					bullets[i].y - enemies[j].y) <5){
-					score += 10;
+				if(Math.abs(bullets[i].x - enemies[j].x) < 15 && Math.abs(
+					bullets[i].y - enemies[j].y) <10){
+					score += 10;				
+				}
+				if(Math.abs(bullets[i].x - enemies[j].x) < 15&& Math.abs(
+					bullets[i].y - enemies[j].y) <10){
+					$(".enemy1").css('background-position', '-110px -20px');
 				}
 			}
 		}
 		var output = ''
 		for (var j=0; j<enemies.length; j++){
-			if(Math.abs(hero.x - enemies[j].x) <10 && Math.abs(
+			if(Math.abs(hero.x - enemies[j].x) <10&& Math.abs(
 				hero.y - enemies[j].y) < 5){
-				score -= 500;
+				score -= 50;
 			}
 		}
 	}
 
-	setInterval(gameLoop, 20);
+	setInterval(gameLoop, 30);
 
 	document.onkeydown= function(a) {
 		if(a.keyCode == 37){
